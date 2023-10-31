@@ -1,38 +1,29 @@
 function SignIn() {
   return (
-    <div>
-      <form className="space-y-6 px-7 p-5">
-        <h3 className="text-xl font-medium center text-center">Log in to your account</h3>
-        <div className="my-4">
-          <label htmlFor="email" className="text-sm font-medium block mb-2 ">
-            Email
-          </label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            className="
-            border-2 outline-none sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5
-      border-gray-500 placeholder-gray-400 
-        "
-            placeholder="name@gmail.com"
-          />
-        </div>
-        <div>
-          <label htmlFor="password" className="text-sm font-medium block mb-2 ">
-             Password
-          </label>
-          <input
-            type="password"
-            name="password"
-            id="password"
-            className="
-            border-2 outline-none sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5
-            border-gray-500 placeholder-gray-400 
-        "
-            placeholder="password"
-          />
-        </div>
+    <div className=" ">
+
+      <form className="space-y-6 px-7 p-5 rounded-md">
+        <h3 className="text-xl font-medium center text-center"> </h3>
+             <div className="bg-blue-300 center text-center text-bold font-bold p-8 rounded-sm justify-center flex  h-full">
+                    TODO
+             </div> 
+             <div className=" center text-center border-dashed border-color-blue justify-center flex ">
+                     <h3 className="justify-start"> Task list </h3>
+                     <br />
+                     <br />
+                     </div>
+
+              <div>
+                    <ul className="justify-center center align-center text-center color-black">
+                      <li >  identify option 1 </li>
+                      <li>  identify option 2 </li>
+                      <li>  identify option 3 </li>
+                      <li>  identify option 4 </li>
+                      <li>  identify option 5 </li>
+                     
+                    </ul>
+             </div> 
+            
 
         <button
           type="submit"
@@ -41,13 +32,11 @@ function SignIn() {
 				text-white
             "
         >
-          SignIn
-       
+          + add Task
+          
         </button>
         <div>
-          <p className="  font-medium center text-center ">
-             Not on MyApp ? <span className="text-blue-500 font-medium"><a href="" >Sign Up</a></span>
-          </p>
+          
         </div>
       </form>
     </div>
